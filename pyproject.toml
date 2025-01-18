@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "get-lat-long-from-direction"
+version = "0.1.0"
+description = ""
+authors = ["eder3232 <eldebar.dk@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+googlemaps = "^4.10.0"
+python-dotenv = "^1.0.1"
+rtree = "^1.3.0"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
